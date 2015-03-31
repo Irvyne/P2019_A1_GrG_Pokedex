@@ -12,8 +12,9 @@ $link = mysqli_connect(
 );
 
 $pokemons = findAllPokemons($link);
+$pokemon  = findOnePokemon($link, 3);
 
-var_dump($pokemons);
+var_dump($pokemon);
 
 //var_dump(
 //    mysqli_error($link)
