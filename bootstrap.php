@@ -1,6 +1,7 @@
 <?php
 
 require 'config/parameters.php';
+require 'function/pokemon.fn.php';
 
 $link = mysqli_connect(
     $parameters['hostname'],
@@ -10,4 +11,8 @@ $link = mysqli_connect(
     $parameters['port']
 );
 
-var_dump($link);
+findAllPokemons($link);
+
+//var_dump(
+//    mysqli_error($link)
+//);
