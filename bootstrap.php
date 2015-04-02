@@ -10,12 +10,3 @@ $link = mysqli_connect(
     $parameters['dbname'],
     $parameters['port']
 );
-
-$pokemons = findAllPokemons($link);
-$pokemon  = findOnePokemon($link, 3);
-
-var_dump($pokemon);
-
-//var_dump(
-//    mysqli_error($link)
-//);
