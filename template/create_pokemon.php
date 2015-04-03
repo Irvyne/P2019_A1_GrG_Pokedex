@@ -26,7 +26,7 @@
         <input type="file" id="picture" name="picture">
         <p class="help-block">Define the pokemon's picture</p>
     </div>
-    <input type="submit" class="btn btn-default">Create pokemon</input>
+    <input type="submit" class="btn btn-default" value="Create Pokemon" name="submit">
 </form>
 
 <?php include '_footer.php'; ?>
