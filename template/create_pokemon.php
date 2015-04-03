@@ -1,6 +1,17 @@
 <?php include '_header.php'; ?>
 
-<form xmlns="http://www.w3.org/1999/html">
+<?php
+    if (!empty($error)) {
+        echo '<div class="alert alert-danger alert-dismissible fade in" role="alert">';
+            echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>';
+            foreach ($error as $e) {
+                echo $e;
+            }
+        echo '</div>';
+    }
+?>
+
+<form method="post" action="" enctype="multipart/form-data">
     <div class="form-group">
         <label for="name">Name</label>
         <input type="text" class="form-control" id="name" name="name" placeholder="Enter a name" required autofocus>
