@@ -15,3 +15,8 @@ function findOnePokemon($link, $id) {
 
     return $pokemon;
 }
+
+function createPokemon($link, $name, $hp, $level, $evolution = null, $picture = null) {
+    $sql   = "INSERT INTO pokemon (name, hp, level, evolution_id, picture) VALUES ('$name', $hp, $level, $evolution, '$picture')";
+    $query = mysqli_query($link, $sql);
+}
