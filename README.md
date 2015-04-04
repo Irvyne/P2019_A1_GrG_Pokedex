@@ -17,4 +17,4 @@
 ## Tricks
 
 * A user is already created in SQL file so u can sign in with a user (username => user | email => user@gmail.com | password => user)
-* Tweets are created
+* Tweets are already created (4 examples)
