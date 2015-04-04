@@ -18,3 +18,7 @@
 
 * A user is already created in SQL file so u can sign in with a user (username => user | email => user@gmail.com | password => user)
 * Tweets are already created (4 examples)
+
+## If you have REAL questions (I'm not google)
+
+* Send me an email (thibaud.bardin[at]gmail[dot]com)
